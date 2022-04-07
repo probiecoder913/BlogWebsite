@@ -1,0 +1,68 @@
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
+
+.footer-padding {
+	padding-bottom: 60px;
+}
+
+.footer {
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #1abc9c;
+}
+
+.footer p {
+	margin-top: 25px;
+	font-size: 12px;
+    color: #fff;
+}
+
+.blogCompose form{
+    height: auto;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+}
+.blogCompose form button{
+    background-color: blue;
+    color: blanchedalmond;
+    width: 90px;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.blogCompose form label{
+    margin-top: 20px;
+    font-size: 15px;
+} 
+.blogCompose form input,textarea{
+    border: 1px solid rgb(134, 134, 134);
+    border-radius: 3px;
+    padding: 5px;
+    letter-spacing: 1px;
+}
+.blogCompose form input{
+    font-weight: 400; 
+    font-size: large;   
+} 
+.blogCompose form textarea{
+    font-weight: 400; 
+}
